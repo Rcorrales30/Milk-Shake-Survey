@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+ <html lang= "en-US">
+ <head>
+   <link rel="stylesheet" href="style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Survey Form\</title>
+ </head>
+<h1 id= "title">Milk Shake Survey Form</h1>
+<p id= "description"> Favorite types of milkshakes</p>
+<form action="#" id="survey-form">
+  <div class="labels">
+   <label id="name-label"> Name:
+     <label>
+    <input type="text" required id ="name"      placeholder="first name, last name">
+  </div>
+   <div class="labels">
+      <label id="email-label" for="email"> Email:
+        </label>
+    <input type="email" required id="email"    placeholder="email">
+   </div>
+    <div id= "age">
+        <label id= "number-label" for="number">Age:</label>
+    <input type="number"  id="number" min="1" max="130" placeholder="age">
+   </div>
+   <div id="gender">
+     <label for="sex"> Gender:</label>
+   <select id="dropdown" placeholder= "select one">
+     <option disabled value>Select one</option>
+     <option value="male">Male</option>
+     <option value="female">Female</option>
+     <option value="other">Other</option>
+       </select>
+     </div>
+     <div class="plain">
+       <label id= "radiolabel">What is your plain milkshake of choice?</label>
+       <div class="table">
+        <ul class="list">
+         <li><label id="vanilla">
+         <input type="radio" name="plainmilk" value="1"> Vanilla
+       </label></li>
+       <li> <label>
+         <input type= "radio" id="chocolate" name="plainmilk" value="2"> Chocolate
+       </label></li>
+       <li><label>
+         <input type="radio" name="plainmilk" value="3"> Strawberry
+       </label></li>
+     </ul>
+   </div>
+     </div>
+     <div id="mixedMilk">
+  <label id="blend"> Which blended milk shakes do you like?
+    </label>
+      <div class="table">
+       <ul  class="list">
+       <li><laber for="blend">
+         <input type="checkbox" name="blend" value="1">Cookies and Cream
+       </label></li>
+        <li><label for="blend">
+          <input type="checkbox" name="blend" value="2">Banana
+        </label></li>
+    <li> <label for="blend">
+      <input type="checkbox" name="blend" value="3">Peanut Butter
+    </label></li>
+     <li><label for="blend">
+       <input type="checkbox" name="blend" value="4">Coconut
+     </label></li>
+      <li><label for="blend">
+        <input type="checkbox" name="blend" value="5">Bacon
+      </label></li>
+      <li><label for="blend">
+        <input type="checkbox" name="blend" value="6">Caramel
+      </label></li>
+      <li><label for="blend">
+        <input type="checkbox" name="blend" value="7">Cheesecake
+      </label></li>
+        <li><label for="blend">
+          <input type="checkbox" name="blend" value="8">Smores
+        </label></li>
+      <li><label for="blend">
+        <input type="checkbox" name="blend" value="9">Mint Chocolate
+      </label></li>
+      <li><label for="blend">
+        <input type="checkbox" name="blend" value="10">Birthday Cake
+      </label></li>
+     <li> <label for="blend">
+       <input type="checkbox" name="blend" value="11">Cookie Dough
+     </label></li>
+       <li><label for="blend">
+         <input type="checkbox" name="blend" value="12">Nutella
+       </label></li>
+       </ul>
+    </div>
+  </div>
+    <div>
+       <textarea placeholder="Comments"></textarea>
+    </div>
+    <div>
+       <button id="submit">Submit</button>
+       </div>
+   </form>
+</html>
