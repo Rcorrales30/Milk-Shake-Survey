@@ -1,24 +1,30 @@
-body{
+html, body{
   font-family: arial, helvetica;
   text-align: center;
   background-color: pink;
+  margin: 0 auto;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 h1{
-background-image: url(milkshake.jpg);
-background-color: pink;
-height: 100px;
-margin: -10px;
-display: flex;
-flex-direction: column;
-justify-content: center;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100px;
+  background-image: url(milkshake.jpg);
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
 }
 p{
   font-size: 20px;
   background: -webkit-linear-gradient(red, purple);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
- margin-top: 50px;
- margin-bottom: 50px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 form{
   display: grid;
@@ -38,6 +44,9 @@ form{
 }
 ul{
   list-style: none;
+}
+#plain_radios {
+  padding: 0;
 }
 .list{
   text-align: left;
